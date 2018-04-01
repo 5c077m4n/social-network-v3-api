@@ -1,7 +1,6 @@
 'use strict';
 const router = require('express').Router();
 const Promise = require('bluebird');
-const jwt = require('jsonwebtoken');
 const resErr = require('../utils/respond-error');
 const middleware = require('../config/middleware');
 const User = require('../models/user');
@@ -36,13 +35,13 @@ router.route('/:username')
 .put(middleware.verifyUser, (req, res, next) => {
 	localTemp.user
 	.update(req.body)
-	.then((user) => res.json(user))
+	.then((user) => res.status(200).json(user))
 	.catch((err) => resErr(res, err.status, err.message));
 })
 .delete(middleware.verifyUser, (req, res, next) => {
 	localTemp.user
 	.remove()
-	.then((user) => res.json({"deleted": user}))
+	.then((user) => res.status(200).json({"deleted": user}))
 	.catch((err) => resErr(res, err.status, err.message));
 });
 

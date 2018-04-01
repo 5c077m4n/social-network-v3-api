@@ -70,4 +70,70 @@ Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensure
 Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m1215.742 ms - -[0m
 Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m29.335 ms - -[0m
 Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m1217.073 ms - -[0m
-Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m1205.158 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()Mongoose: users.findOne()[0mGET /users [0mundefined [0m21.287 ms - 12[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mGET /users [0mundefined [0m25.747 ms - 12[0m
+Mongoose: users.findOne()[0mGET /users [0mundefined [0m5.891 ms - 12[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.find()[0mGET /users [32m200 [0m23.143 ms - 549[0m
+Mongoose: users.insert()[0mPOST /register [0m- [0m- ms - -[0m
+Mongoose: users.insert()[0mPOST /register [0m- [0m- ms - -[0m
+Mongoose: users.findOne()Mongoose: users.find()[0mGET /users [32m200 [0m5.334 ms - 836[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [32m201 [0m1237.085 ms - 641[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mPOST /login [32m200 [0m1228.819 ms - 348[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mPOST /login [32m200 [0m1201.117 ms - 348[0m
+Mongoose: users.findOne()[0mPOST /login [32m200 [0m1204.204 ms - 354[0m
+Mongoose: users.findOne()[0mPOST /login [32m200 [0m1232.891 ms - 354[0m
+Mongoose: users.findOne()[0mPOST /admins [33m404 [0m7.643 ms - 72[0m
+Mongoose: users.findOne()Mongoose: users.find()[0mGET /admins [32m200 [0m4.235 ms - 291[0m
+Mongoose: users.findOne()Mongoose: users.findOne()[0mGET /admins/roee [31m500 [0m2005.630 ms - 54[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m35.951 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m1232.089 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m21.789 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m31.290 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mPOST /register [0m- [0m22.993 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mPOST /register [0m- [0m25.902 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m26.960 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m25.425 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.insert()[0mPOST /register [0m- [0m27.490 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m42.128 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m57.996 ms - -[0m
+Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m29.203 ms - -[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.insert()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m36.489 ms - -[0m
+Mongoose: users.findOne()Mongoose: users.findOne()Mongoose: users.insert()[0mPOST /register [0m- [0m4.606 ms - -[0m
+Mongoose: users.findOne()Mongoose: users.findOne()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mGET /admins/ [0m- [0m6.838 ms - -[0m
+[0mGET / [32m200 [0m1.204 ms - 29[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mGET /login [33m404 [0m1.057 ms - 72[0m
+Mongoose: users.findOne()[0mPOST /login [32m200 [0m1251.109 ms - 354[0m
+[0mPOST /users [31m500 [0m0.936 ms - 47[0m
+[0mGET /users [31m500 [0m0.469 ms - 47[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mGET /users [31m500 [0m9.040 ms - 32[0m
+Mongoose: users.findOne()[0mGET /users [33m401 [0m27.490 ms - 31[0m
+Mongoose: users.find()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mPOST /login [32m200 [0m1220.794 ms - 354[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mPOST /login [32m200 [0m1254.313 ms - 354[0m
+[0mGET / [32m200 [0m1.209 ms - 29[0m
+[0mGET /favicon.ico [33m404 [0m1.071 ms - 72[0m
+[0mGET /users [31m500 [0m3.706 ms - 45[0m
+[0mGET /admins [31m500 [0m0.754 ms - 45[0m
+[0mGET /login [33m404 [0m2003.637 ms - 72[0m
+[0mGET /register [33m404 [0m4003.217 ms - 72[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mPOST /login [32m200 [0m1234.757 ms - 354[0m
+Mongoose: users.findOne()[0mPOST /login [32m200 [0m1209.503 ms - 354[0m
+[0mGET / [32m200 [0m0.975 ms - 29[0m
+Mongoose: users.findOne()[0mPOST /login [32m200 [0m1314.014 ms - 354[0m
+Mongoose: users.findOne()[0mGET /users [33m401 [0m10.592 ms - 44[0m
+Mongoose: users.find()Mongoose: users.findOne()[0mGET /admins [33m401 [0m13.011 ms - 44[0m
+Mongoose: users.find()[0mPOST /login [33m401 [0m3.662 ms - 71[0m
+[0mPOST /login [33m401 [0m2002.316 ms - 71[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mPOST /login [33m401 [0m5.235 ms - 71[0m
+[0mPOST /login [33m401 [0m0.994 ms - 71[0m
+[0mPOST /login [33m401 [0m2.079 ms - 71[0m
+[0mPOST /login [33m401 [0m1.231 ms - 71[0m
+Mongoose: users.findOne()[0mPOST /login [32m200 [0m1365.443 ms - 354[0m
+Mongoose: users.findOne()[0mGET /users [33m401 [0m2043.370 ms - 44[0m
+Mongoose: users.find()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.findOne()[0mGET /users [33m401 [0m30.841 ms - 44[0m
+Mongoose: users.find()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mPOST /login [33m401 [0m28.922 ms - 71[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mPOST /login [33m401 [0m6.815 ms - 71[0m
+[0mPOST /login [33m401 [0m3.317 ms - 71[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()[0mPOST / [32m200 [0m13.388 ms - 28[0m
+[0mPOST /login [33m401 [0m3.657 ms - 71[0m
+Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()Mongoose: users.ensureIndex()

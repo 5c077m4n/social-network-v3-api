@@ -2,12 +2,14 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const Promise = require('bluebird');
-const bCompare = Promise.promisify(bcrypt.compare);
-const bHash = Promise.promisify(bcrypt.hash);
+
 const resErr = require('../utils/respond-error');
 const secret = require('../utils/secret').generateSecret;
+
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Schema.Types.ObjectId;
+const bcryptComparePromise = Promise.promisify(bcrypt.compare);
+const bcryptHashPromise = Promise.promisify(bcrypt.hash);
 
 const UserSchema = new Schema({
 	username: {type: String, minlength: 3, maxlength: 100, unique: [true, 'This username has already been taken.'], required: true},
@@ -26,35 +28,38 @@ const UserSchema = new Schema({
 });
 UserSchema.pre('save', function(next) {
 	const user = this;
-	bHash(user.password, 14)
+	bcryptHashPromise(user.password, 14)
 	.then(hash => {
 		user.password = hash;
 		next();
 	})
 	.catch(err => resErr(res, err.status, err.message));
 });
+UserSchema.method('update', function(updates, callback) {
+	Object.assign(this, updates, {modifiedAt: new Date()});
+	this.save(callback);
+});
 
 UserSchema.statics.authenticate = function(req, res, next) {
-	if(req.body.username && req.body.password)
-	{
-		const user = this.findOne({username: req.body.username})
+	if(!req.body.username || !req.body.password) resErr(res, 401, 'Both the username and password are required.');
+	return new Promise(function(resolve, reject) {
+		this
+		.findOne({username: req.body.username})
 		.select('+password')
 		.select('+secret')
 		.exec()
 		.then(user => {
 			if(!user) resErr(res, 401, 'Incorrect username/password inserted.');
-			return bCompare(req.body.password, user.password)
+			return bcryptComparePromise(req.body.password, user.password)
 			.then(same => {
 				if(!same) resErr(res, 401, 'Incorrect username/password inserted.');
 				user.password = undefined;
-				return user;
+				Promise.resolve(user);
 			})
 			.catch(error => Promise.reject(error));
 		})
 		.catch(err => resErr(res, err.status, err.message));
-		return user;
-	}
-	else resErr(res, 401, 'Both the usermane and password are required.');
+	});
 };
 
 module.exports = mongoose.model('User', UserSchema);

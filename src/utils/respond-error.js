@@ -1,10 +1,3 @@
-/**
- *
- * @param res
- * @param status
- * @param data
- * @returns {*}
- */
 module.exports = (res, status, message) => {
 	if(!message)
 		switch(status) {
@@ -26,5 +19,5 @@ module.exports = (res, status, message) => {
 			default:
 				message = 'Unknown Error.';
 		}
-	res.status(status).json({message});
+	res.status(status).json({status, message});
 };

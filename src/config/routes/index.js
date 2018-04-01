@@ -8,21 +8,17 @@ const User = require('../../models/user');
 const secret = require('../../utils/secret').secret;
 
 router.route('/')
-.all((req, res, next) => res.status(200).json({"message": "Test successful"}));
+.all((req, res, next) => res.status(200).json({"message": "Great success!"}));
 
 router.route('/login')
 .post((req, res, next) => {
-	return new Promise((resolve, reject) => {
-		resolve(User.authenticate(req, res, next));
-	})
+	User.authenticate(req, res, next)
 	.then(user => {
-		return jwtSignPromise(
+		return jwt.sign(
 			{_id: user._id, username: user.username,  secret: user.secret, isAdmin: user.isAdmin},
 			secret,
 			{expiresIn: 24 * 60 * 60, algorithm: 'HS512'}
-		)
-		.then(decoded => decoded)
-		.catch(error => Promise.reject(error));
+		);
 	})
 	.then(token => res.status(200).json({
 		auth: true,
@@ -34,19 +30,25 @@ router.route('/login')
 router.route('/register')
 .post((req, res, next) => {
 	return new Promise((resolve, reject) => {
-		new User(req.body)
-		.save()
-		.then(user => {
-			if(!user) resErr(res, 500, 'The user has not been created.');
-			const token = jwt.sign(
-				{_id: user._id, username: user.username, secret: user.secret, isAdmin: user.isAdmin},
-				secret,
-				{expiresIn: 24 * 60 * 60, algorithm: 'HS512'}
-			)
-			Promise.resolve([user, token]);
-		})
-		.catch(err => resErr(res, err.status, err.message));
-	}).then(([user, token]) => {
+		resolve(
+			new User(req.body)
+			.save()
+			.then(user => user)
+			.catch('MongoError', err => resErr(res, 500, `This user already exists. (MongoDB code: ${err.status})`))
+			.catch('BulkWriteError', err => resErr(res, 500, `This user already exists. (MongoDB code: ${err.status})`))
+			.catch(err => Promise.reject(err))
+		);
+	})
+	.then(user => {
+		if(!user) resErr(res, 500, 'The user has NOT been created.');
+		const token = jwt.sign(
+			{_id: user._id, username: user.username, secret: user.secret, isAdmin: user.isAdmin},
+			secret,
+			{expiresIn: 24 * 60 * 60, algorithm: 'HS512'}
+		)
+		return([user, token]);
+	})
+	.then(([user, token]) => {
 		user.password = undefined;
 		user.secret = undefined;
 		res.status(201).json({
