@@ -15,14 +15,14 @@ const PostSchema = new Schema({
 	votes: {type: Number, default: 0},
 	isHidden: {type: Boolean, default: false}
 });
-PostSchema.method('update', function(updates, callback) {
+PostSchema.method('update', function(updates) {
 	Object.assign(this, updates, {modifiedAt: new Date()});
-	this.save(callback);
+	return this.save();
 });
-PostSchema.method('vote', function(vote, callback) {
+PostSchema.method('vote', function(vote) {
 	if(vote.toLowerCase() === 'up') this.votes += 1;
 	if(vote.toLowerCase() === 'down') this.votes -= 1;
-	this.save(callback);
+	return this.save();
 });
 
 module.exports = mongoose.model('Post', PostSchema);

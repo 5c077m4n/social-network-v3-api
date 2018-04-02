@@ -18,11 +18,13 @@ router.route('/login')
 	User
 		.authenticate(res, req.body.username, req.body.password)
 		.then(user => {
-			return jwt.sign(
+			return jwt.signAsync(
 					{_id: user._id, username: user.username,  secret: user.secret, isAdmin: user.isAdmin},
 					secret,
 					{expiresIn: 24 * 60 * 60, algorithm: 'HS512'}
-				);
+				)
+				.then(token => token)
+				.catch(Promise.reject);
 		})
 		.then(token => {
 			return res.status(200).json({
@@ -39,7 +41,7 @@ router.route('/register')
 		.save()
 		.then(user => {
 			if(!user) return resErr(res, 500, 'The user has NOT been created.');
-			return jwt.sign(
+			return jwt.signAsync(
 				{_id: user._id, username: user.username, secret: user.secret, isAdmin: user.isAdmin},
 				secret,
 				{expiresIn: 24 * 60 * 60, algorithm: 'HS512'}

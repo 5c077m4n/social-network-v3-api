@@ -1,19 +1,21 @@
 'use strict';
 const https = require('https');
 const http = require('http');
-const fs = require('fs');
 const path = require('path');
+const Promise = require('bluebird');
+const fs = Promise.promisifyAll(require("fs"));
+
 const express = require('express');
-const mongoose = require('mongoose');
-mongoose.Promise = require('bluebird');
 const logger = require('morgan');
+const mongoose = require('mongoose');
+mongoose.Promise = Promise;
 
 const app = express();
 const [HOST, PORT] = ['127.0.0.1', process.env.PORT || 3000];
 const accessLogStream = fs.createWriteStream(
 	path.join(__dirname, './utils/logStream.log'),
 	{flags: 'a'}
-);
+)
 
 app.use(logger('dev', {stream: accessLogStream}));
 mongoose.set('debug', (collectionName, methodName) => {
