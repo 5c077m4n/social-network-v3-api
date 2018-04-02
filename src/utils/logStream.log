@@ -802,3 +802,10 @@ Mongoose: users.findOne()
 Mongoose: users.findOne()
 Mongoose: users.findOne()
 [0mGET /users/scotty [32m200 [0m17.931 ms - 259[0m
+[0mGET /register [33m404 [0m0.662 ms - 72[0m
+Mongoose: users.insert()
+[0mPOST /register [31m500 [0m1357.932 ms - 100[0m
+Mongoose: users.insert()
+[0mPOST /register [32m201 [0m1317.289 ms - 621[0m
+Mongoose: users.insert()
+[0mPOST /register [31m500 [0m1302.428 ms - 109[0m
