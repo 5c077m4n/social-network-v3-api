@@ -1,6 +1,8 @@
 'use strict';
+
 const router = require('express').Router();
 const Promise = require('bluebird');
+
 const resErr = require('../utils/respond-error');
 const middleware = require('../config/middleware');
 const User = require('../models/user');

@@ -1,7 +1,9 @@
 'use strict';
+
 const router = require('express').Router();
 const Promise = require('bluebird');
 const jwt = require('jsonwebtoken');
+
 const resErr = require('../utils/respond-error');
 const middleware = require('../config/middleware');
 const User = require('../models/user');

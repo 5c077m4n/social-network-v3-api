@@ -10,8 +10,6 @@ const logger = require('morgan');
 
 const app = express();
 const [HOST, PORT] = ['127.0.0.1', process.env.PORT || 3000];
-// const dbURI = 'mongodb://social:qwerty_123@ds111319.mlab.com:11319/social';
-const dbURI = 'mongodb://127.0.0.1:27017/social';
 const accessLogStream = fs.createWriteStream(
 	path.join(__dirname, './utils/logStream.log'),
 	{flags: 'a'}
@@ -19,13 +17,8 @@ const accessLogStream = fs.createWriteStream(
 
 app.use(logger('dev', {stream: accessLogStream}));
 mongoose.set('debug', (collectionName, methodName) => {
-	accessLogStream.write(`Mongoose: ${collectionName}.${methodName}()`);
+	accessLogStream.write(`Mongoose: ${collectionName}.${methodName}()\n`);
 });
-mongoose.connect(dbURI)
-	.then(() => {console.log('You have been successfully connected to the database.')})
-	.catch((err) => console.error(`connection error: ${err}`));
-const db = mongoose.connection;
-db.on('error', (err) => console.error(`connection error: ${err}`));
 
 app.use('/', require('./config/express'));
 
