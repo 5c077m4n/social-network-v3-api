@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = Promise;
 
 const app = express();
-const [HOST, PORT] = ['127.0.0.1', process.env.PORT || 3000];
+const [HOST, PORT] = ['0.0.0.0', process.env.PORT || 3000];
 const accessLogStream = fs.createWriteStream(
 	path.join(__dirname, './utils/logStream.log'),
 	{flags: 'a'}
