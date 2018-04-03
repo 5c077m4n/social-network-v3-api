@@ -809,3 +809,13 @@ Mongoose: users.insert()
 [0mPOST /register [32m201 [0m1317.289 ms - 621[0m
 Mongoose: users.insert()
 [0mPOST /register [31m500 [0m1302.428 ms - 109[0m
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()

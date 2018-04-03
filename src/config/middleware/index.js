@@ -21,6 +21,7 @@ const decodeToken = (req, res, next) => {
 		.then(decoded => {
 			return findUserByID(decoded._id)
 				.then(user => {
+					if(!user) return resErr(res, 401, 'There was an error in decoding your token.');
 					if(decoded.secret === user.secret) return decoded;
 					return resErr(res, 401, null);
 				})
