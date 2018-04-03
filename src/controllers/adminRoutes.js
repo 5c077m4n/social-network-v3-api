@@ -7,11 +7,20 @@ const User = require('../models/user');
 const Post = require('../models/post');
 
 let localTemp = {};
+const findAdminByUsername = (username) => {
+	return User
+		.findOne({username})
+		.exec()
+};
+const findAdmins() => {
+	return User
+		.find({isAdmin: true})
+		.sort({name: 1})
+		.exec()
+};
 
 router.param('adminUsername', (req, res, next, adminUsername) => {
-	User
-		.findOne({username: req.params.adminUsername})
-		.exec()
+	findAdminByUsername(req.params.adminUsername)
 		.then(admin => {
 			localTemp.admin = admin;
 			req.locals = {user: {_id: admin._id}};
@@ -19,24 +28,10 @@ router.param('adminUsername', (req, res, next, adminUsername) => {
 		})
 		.catch(err => resErr(res, err.status, err.message));
 });
-router.param('username', (req, res, next, username) => {
-	User
-		.findOne({username: req.params.username})
-		.exec()
-		.then(user => {
-			localTemp.admin.user = user;
-			req.locals.user = {user: {_id: user._id}};
-			next();
-		})
-		.catch(err => resErr(res, err.status, err.message));
-});
 
 router.route('/')
 .get((req, res, next) => {
-	User
-		.find({isAdmin: true})
-		.sort({name: 1})
-		.exec()
+	findAdmins()
 		.then(admins => res.status(200).json(admins))
 		.catch((err) => resErr(res, err.status, err.message));
 });
