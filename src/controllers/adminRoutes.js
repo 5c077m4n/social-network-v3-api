@@ -12,7 +12,7 @@ const findAdminByUsername = (username) => {
 		.findOne({username})
 		.exec()
 };
-const findAdmins() => {
+const findAdmins = () => {
 	return User
 		.find({isAdmin: true})
 		.sort({name: 1})

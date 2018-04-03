@@ -819,3 +819,6 @@ Mongoose: users.ensureIndex()
 Mongoose: users.ensureIndex()
 Mongoose: users.ensureIndex()
 Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+Mongoose: users.ensureIndex()
+[0mGET / [32m200 [0m11.995 ms - 28[0m
