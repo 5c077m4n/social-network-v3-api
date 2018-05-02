@@ -1,7 +1,8 @@
 {
   "name": "social_network",
   "version": "1.0.0",
-  "description": "",
+  "description": "social_network_v3",
+  "repository": "https://github.com/roee-shap1/social-network-v3-api",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -11,7 +12,7 @@
   "author": "Roee Shapira",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^2.0.1",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "compression": "^1.7.2",
@@ -23,6 +24,7 @@
     "jsonwebtoken": "^8.1.1",
     "mongoose": "^5.0.9",
     "morgan": "^1.9.0",
+    "node-gyp": "^3.6.2",
     "redis": "^2.8.0"
   },
   "devDependencies": {}
