@@ -1,3 +1,5 @@
+'use strict';
+
 const router = require('express').Router();
 const https = require('https');
 const http = require('http');
@@ -8,11 +10,15 @@ const mongoose = require('mongoose');
 const helmet = require('helmet');
 const Limiter = require('express-rate-limit');
 const compress = require('compression');
+const cors = require('cors');
+
 const middleware = require('./middleware');
-const cors = require('./middleware/cors');
 
 const dbURI = 'mongodb://social:qwerty_123@ds111319.mlab.com:11319/social';
 // const dbURI = 'mongodb://127.0.0.1:27017/social';
+
+router.use(helmet());
+router.use(cors());
 
 mongoose.connect(dbURI)
 	.then(() => {console.log('You have been successfully connected to the database.')})
@@ -34,8 +40,6 @@ router.use(compress({
 }));
 
 router.use(bodyParser.json());
-router.use(helmet());
-router.use(cors);
 
 router.use(new Limiter({
 	windowMs: 5 * 60 * 1000, // 5 minutes

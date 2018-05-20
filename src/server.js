@@ -1,10 +1,10 @@
 'use strict';
+
 const https = require('https');
 const http = require('http');
 const path = require('path');
 const Promise = require('bluebird');
-const fs = Promise.promisifyAll(require("fs"));
-
+const fs = require('fs');
 const express = require('express');
 const logger = require('morgan');
 const mongoose = require('mongoose');
@@ -19,7 +19,7 @@ const accessLogStream = fs.createWriteStream(
 
 app.use(logger('dev', {stream: accessLogStream}));
 mongoose.set('debug', (collectionName, methodName) => {
-	accessLogStream.write(`Mongoose: ${collectionName}.${methodName}()\n`);
+	accessLogStream.write(`Mongoose: ${collectionName}.${methodName}() @${new Date().toLocaleString()}\n`);
 });
 
 app.use('/', require('./config/express'));
@@ -40,7 +40,7 @@ http
 // 		ca: fs.readFileSync(__dirname + '/utils/certauthority.pem'),
 // 		cert: fs.readFileSync(__dirname + '/utils/certificate.pem')
 // 	}, app)
-// 	.listen(PORT+10, HOST, () => console.log(`Express is now running on https://${HOST}:${PORT+10}`))
+// 	.listen(PORT + 10, HOST, () => console.log(`Express is now running on https://${HOST}:${PORT + 10}`))
 // 	.on('error', function(err) {
 // 		console.error(`connection error: ${err}`);
 // 		this.close(() => {
