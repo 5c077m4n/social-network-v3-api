@@ -18,6 +18,7 @@ const dbURI = 'mongodb://social:qwerty_123@ds111319.mlab.com:11319/social';
 // const dbURI = 'mongodb://127.0.0.1:27017/social';
 
 router.use(helmet());
+router.options('*', cors());
 router.use(cors());
 
 mongoose.connect(dbURI)
@@ -32,14 +33,9 @@ router.use((req, res, next) => {
 });
 
 router.use(compress({
-	filter: (req, res) => {
-		if(req.headers['x-no-compression']) return false;
-		else return compress.filter(req, res);
-	},
+	filter: (req, res) => (req.headers['x-no-compression'])? false : compress.filter(req, res),
 	level: 6
 }));
-
-router.use(bodyParser.json());
 
 router.use(new Limiter({
 	windowMs: 5 * 60 * 1000, // 5 minutes
@@ -48,8 +44,11 @@ router.use(new Limiter({
 	delayAfter: 5
 }));
 
+router.use(bodyParser.json());
+
 router.use('/', require('./routes'));
 router.use('/users', middleware.verifyToken, require('../controllers/userRoutes'));
+router.use('/gql', require('../controllers/graphql'));
 router.use('/admins', middleware.verifyToken, middleware.isAdmin, require('../controllers/adminRoutes'));
 
 router.use((req, res, next) => {
@@ -57,7 +56,6 @@ router.use((req, res, next) => {
 	err.status = 404;
 	next(err);
 });
-
 router.use((err, req, res, next) => {
 	return res.status((err.status >= 100 && err.status < 600)? err.status : 500).json({
 		error: {

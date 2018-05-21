@@ -10,3 +10,171 @@ Mongoose: users.ensureIndex() @5/20/2018, 10:00:17 PM
 Mongoose: users.ensureIndex() @5/20/2018, 10:00:17 PM
 Mongoose: users.ensureIndex() @5/20/2018, 10:00:56 PM
 Mongoose: users.ensureIndex() @5/20/2018, 10:00:56 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:01:56 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:01:56 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:02:00 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:02:01 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:16:32 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:16:32 PM
+[0mGET /gql-users [33m404 [0m21.964 ms - 72[0m
+[0mGET /gql-users [33m404 [0m2.862 ms - 72[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:19:55 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:19:55 PM
+[0mGET /gql-users [33m404 [0m27.696 ms - 72[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:20:02 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:20:02 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:21:10 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:21:10 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:23:19 PM
+[0mGET /gql-users [32m200 [0m21.065 ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:23:19 PM
+[0mPOST /gql-users? [32m200 [0m68.978 ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:25:32 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:25:33 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:28:15 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:28:16 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:28:54 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:28:54 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:29:12 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:29:12 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:29:28 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:29:28 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:31:26 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:31:27 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:32:12 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:32:12 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:32:52 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:32:52 PM
+[0mPOST /gql-users? [33m404 [0m22.183 ms - 72[0m
+[0mPOST /gql-users? [33m404 [0m4.796 ms - 72[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:34:36 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:34:36 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:34:46 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:34:46 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:36:09 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:36:09 PM
+[0mPOST /gql-users? [33m404 [0m21.135 ms - 72[0m
+[0mGET /gql-users?query=%7B%0A%09users%20%7B%0A%20%20%20%20username%0A%20%20%7D%0A%7D [0m- [0m- ms - -[0m
+[0mGET /gql-users [0m- [0m- ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:37:21 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:37:21 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:38:22 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:38:22 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:39:51 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:39:51 PM
+[0mGET /gql-users [0m- [0m- ms - -[0m
+[0mGET /gql-users [0m- [0m- ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:42:17 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:42:17 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:42:32 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:42:32 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:42:51 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:42:51 PM
+[0mGET /gql-users [0m- [0m- ms - -[0m
+[0mGET /gql-users [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m3.911 ms - 28[0m
+[0mGET /favicon.ico [33m404 [0m1.316 ms - 72[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:46:43 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:46:43 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:47:16 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:47:16 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:47:44 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:47:45 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:48:01 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:48:01 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:48:48 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:48:48 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:49:04 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:49:04 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:49:36 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:49:36 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:49:45 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:49:45 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:51:26 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:51:26 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:51:39 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:51:39 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:51:51 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:51:51 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:52:04 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:52:05 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:52:13 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:52:14 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:53:11 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:53:11 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:53:44 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:53:45 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:54:05 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:54:05 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:54:29 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:54:29 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:54:36 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:54:36 PM
+[0mGET /gql-users [33m404 [0m5.102 ms - 72[0m
+[0mGET /gql-users/users [0m- [0m- ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:57:38 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:57:38 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:57:58 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:57:58 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:58:27 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:58:27 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:58:42 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:58:42 PM
+[0mGET /gql-users [32m200 [0m14.278 ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 10:59:36 PM
+Mongoose: users.ensureIndex() @5/20/2018, 10:59:36 PM
+[0mPOST /gql-users? [32m200 [0m42.098 ms - -[0m
+Mongoose: users.ensureIndex() @5/20/2018, 11:00:07 PM
+Mongoose: users.ensureIndex() @5/20/2018, 11:00:07 PM
+[0mGET /gql-users [32m200 [0m15.146 ms - -[0m
+[0mPOST /gql-users? [32m200 [0m41.828 ms - -[0m
+[0mPOST /gql-users? [32m200 [0m4.140 ms - 37[0m
+Mongoose: users.ensureIndex() @5/21/2018, 10:37:00 AM
+Mongoose: users.ensureIndex() @5/21/2018, 10:37:00 AM
+[0mGET /gql-users?query=%7B%0A%20%20message%0A%7D [32m200 [0m73.417 ms - -[0m
+[0mPOST /gql-users? [32m200 [0m52.162 ms - -[0m
+[0mPOST /gql-users? [32m200 [0m5.579 ms - 37[0m
+Mongoose: users.ensureIndex() @5/21/2018, 10:38:35 AM
+Mongoose: users.ensureIndex() @5/21/2018, 10:38:35 AM
+[0mGET /gql [32m200 [0m12.983 ms - -[0m
+[0mPOST /gql? [32m200 [0m72.130 ms - -[0m
+[0mPOST /gql? [32m200 [0m6.250 ms - 37[0m
+[0mGET /gql/users [32m200 [0m3.079 ms - -[0m
+[0mPOST /gql/users? [32m200 [0m23.405 ms - -[0m
+[0mPOST /gql/users? [33m400 [0m2005.581 ms - 97[0m
+[0mGET /gql/users [32m200 [0m4003.445 ms - -[0m
+[0mPOST /gql/users? [32m200 [0m6038.414 ms - -[0m
+[0mPOST /gql/users? [33m400 [0m12.974 ms - 184[0m
+[0mPOST /gql/users? [33m400 [0m4.694 ms - 109[0m
+Mongoose: users.ensureIndex() @5/21/2018, 11:19:01 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:19:01 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:21:25 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:21:25 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:25:21 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:25:22 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:27:23 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:27:23 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:27:57 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:27:58 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:48:10 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:48:11 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:49:24 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:49:24 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:54:25 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:54:25 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:55:19 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:55:19 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:55:49 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:55:49 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:56:07 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:56:07 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:56:30 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:56:30 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:56:45 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:56:46 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:57:21 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:57:21 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:57:39 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:57:39 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:57:58 AM
+Mongoose: users.ensureIndex() @5/21/2018, 11:57:58 AM

@@ -28,7 +28,7 @@ router.param('username', (req, res, next, username) => {
 			req.locals = {user: {_id: user._id}};
 			next();
 		})
-		.catch((err) => resErr(res, err.status, err.message));
+		.catch(err => resErr(res, err.status, err.message));
 });
 
 router.route('/')
