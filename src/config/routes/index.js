@@ -1,5 +1,7 @@
 'use strict';
 
+const fs = require('fs');
+
 const router = require('express').Router();
 const Promise = require('bluebird');
 const jwt = Promise.promisifyAll(require('jsonwebtoken'));
@@ -8,10 +10,22 @@ const resErr = require('../../utils/respond-error');
 const User = require('../../models/user');
 const secret = require('../../utils/secret').secret;
 
+
 router.route('/')
 .all((req, res, next) => res.status(200).json({
 	"message": "Great success!"
 }));
+
+router.route('/logs')
+.get((req, res, next) => {
+	const file = fs.createReadStream('../../utils/webapp.log');
+	file.pipe(res);
+})
+.post((req, res, next) => {
+	const file = fs.createWriteStream('../../utils/webapp.log');
+	file.write(req.body.log);
+})
+.delete((req, res, next) => {})
 
 router.route('/login')
 .post((req, res, next) => {

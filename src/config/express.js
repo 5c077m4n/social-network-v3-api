@@ -48,7 +48,6 @@ router.use(bodyParser.json());
 
 router.use('/', require('./routes'));
 router.use('/users', middleware.verifyToken, require('../controllers/userRoutes'));
-router.use('/gql', require('../controllers/graphql'));
 router.use('/admins', middleware.verifyToken, middleware.isAdmin, require('../controllers/adminRoutes'));
 
 router.use((req, res, next) => {
