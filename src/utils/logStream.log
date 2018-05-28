@@ -180,3 +180,121 @@ Mongoose: users.ensureIndex() @5/21/2018, 11:57:58 AM
 Mongoose: users.ensureIndex() @5/21/2018, 11:57:58 AM
 Mongoose: users.ensureIndex() @5/27/2018, 5:36:17 PM
 Mongoose: users.ensureIndex() @5/27/2018, 5:36:18 PM
+Mongoose: users.ensureIndex() @5/27/2018, 10:24:30 PM
+Mongoose: users.ensureIndex() @5/27/2018, 10:24:30 PM
+Mongoose: users.ensureIndex() @5/27/2018, 10:32:08 PM
+Mongoose: users.ensureIndex() @5/27/2018, 10:32:08 PM
+Mongoose: users.ensureIndex() @5/27/2018, 10:32:24 PM
+Mongoose: users.ensureIndex() @5/27/2018, 10:32:25 PM
+Mongoose: users.ensureIndex() @5/28/2018, 10:21:22 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:21:22 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:22:05 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:22:05 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:22:24 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:22:24 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:22:35 AM
+Mongoose: users.ensureIndex() @5/28/2018, 10:22:35 AM
+[0mGET /logs [32m200 [0m6.366 ms - -[0m
+[0mGET /logs [32m200 [0m1.010 ms - -[0m
+[0mGET /logs [32m200 [0m0.796 ms - -[0m
+[0mGET /logs [32m200 [0m1.005 ms - -[0m
+[0mGET /logs [32m200 [0m0.748 ms - -[0m
+[0mGET /logs [32m200 [0m0.718 ms - -[0m
+[0mGET /logs [32m200 [0m0.678 ms - -[0m
+[0mGET /logs [32m200 [0m0.622 ms - -[0m
+[0mGET /logs [32m200 [0m0.490 ms - -[0m
+[0mGET /logs [32m200 [0m0.460 ms - -[0m
+[0mGET /logs [32m200 [0m0.553 ms - -[0m
+[0mGET /logs [32m200 [0m0.506 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.586 ms - 72[0m
+[0mGET /favicon.ico [33m404 [0m0.648 ms - 72[0m
+[0mGET /logs [32m200 [0m0.525 ms - -[0m
+[0mGET /logs [32m200 [0m0.467 ms - -[0m
+Mongoose: users.ensureIndex() @5/28/2018, 11:32:17 AM
+Mongoose: users.ensureIndex() @5/28/2018, 11:32:17 AM
+[0mGET /logs [32m200 [0m6.652 ms - -[0m
+[0mGET /logs [32m200 [0m1.367 ms - -[0m
+[0mGET /posts [33m404 [0m5.695 ms - 72[0m
+[0mGET /api/logs [33m404 [0m0.818 ms - 72[0m
+[0mGET /api/posts [33m404 [0m0.644 ms - 72[0m
+[0mGET /api/logs [33m404 [0m0.468 ms - 72[0m
+[0mGET /api/posts [33m404 [0m0.479 ms - 72[0m
+[0mGET /logs [32m200 [0m0.810 ms - -[0m
+[0mGET /posts [33m404 [0m2002.070 ms - 72[0m
+[0mGET /logs [32m200 [0m4002.175 ms - -[0m
+[0mGET /posts [33m404 [0m6004.227 ms - 72[0m
+[0mGET /logs [0m- [0m- ms - -[0m
+[0mGET /logs [32m200 [0m0.642 ms - -[0m
+[0mGET /posts [33m404 [0m0.494 ms - 72[0m
+[0mGET /logs [32m200 [0m0.642 ms - -[0m
+[0mGET /posts [33m404 [0m0.484 ms - 72[0m
+[0mGET /logs [32m200 [0m0.536 ms - -[0m
+[0mGET /posts [33m404 [0m2002.493 ms - 72[0m
+[0mGET /logs [32m200 [0m0.573 ms - -[0m
+[0mGET /posts [33m404 [0m0.516 ms - 72[0m
+[0mGET /api/logs [33m404 [0m0.493 ms - 72[0m
+[0mGET /api/posts [33m404 [0m0.494 ms - 72[0m
+[0mGET /logs/logs [33m404 [0m0.521 ms - 72[0m
+[0mGET /logs [32m200 [0m0.573 ms - -[0m
+[0mGET /posts [33m404 [0m0.988 ms - 72[0m
+[0mGET /logs [32m200 [0m1.044 ms - -[0m
+[0mGET /posts [33m404 [0m1.400 ms - 72[0m
+[0mGET /logs [32m200 [0m0.554 ms - -[0m
+[0mGET /posts [33m404 [0m0.337 ms - 72[0m
+[0mGET /logs [32m200 [0m0.556 ms - -[0m
+[0mGET /posts [33m404 [0m2001.616 ms - 72[0m
+[0mGET /logs [32m200 [0m4001.695 ms - -[0m
+[0mGET /posts [33m404 [0m6001.713 ms - 72[0m
+[0mGET /logs [32m200 [0m8003.040 ms - -[0m
+[0mGET /posts [33m404 [0m10002.949 ms - 72[0m
+[0mGET /logs [32m200 [0m12003.243 ms - -[0m
+[0mGET /posts [33m404 [0m14003.171 ms - 72[0m
+[0mGET /logs [32m200 [0m0.580 ms - -[0m
+[0mGET /posts [33m404 [0m0.511 ms - 72[0m
+[0mGET /logs [32m200 [0m2.322 ms - -[0m
+[0mGET /posts [33m404 [0m0.432 ms - 72[0m
+[0mGET /logs [32m200 [0m1.785 ms - -[0m
+[0mGET /posts [33m404 [0m0.519 ms - 72[0m
+Mongoose: users.ensureIndex() @5/28/2018, 12:19:16 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:19:16 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:20:56 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:20:57 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:21:43 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:21:44 PM
+[0mGET /posts [33m404 [0m8.825 ms - 72[0m
+[0mGET /posts [33m404 [0m1.045 ms - 72[0m
+[0mGET /posts [33m404 [0m0.722 ms - 72[0m
+Mongoose: users.ensureIndex() @5/28/2018, 12:23:33 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:23:33 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:29:29 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:29:29 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:33:41 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:33:41 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:34:00 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:34:00 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:36:31 PM
+Mongoose: users.ensureIndex() @5/28/2018, 12:36:31 PM
+[0mGET /posts [33m404 [0m9.028 ms - 72[0m
+[0mGET /posts [33m404 [0m1.066 ms - 72[0m
+[0mGET /posts [33m404 [0m0.797 ms - 72[0m
+[0mGET /posts [33m404 [0m1.867 ms - 72[0m
+[0mGET /posts [33m404 [0m0.911 ms - 72[0m
+[0mGET /posts [33m404 [0m0.752 ms - 72[0m
+[0mGET /posts [33m404 [0m0.655 ms - 72[0m
+[0mGET /posts [33m404 [0m0.727 ms - 72[0m
+[0mGET /posts [33m404 [0m0.720 ms - 72[0m
+[0mGET /posts [33m404 [0m0.641 ms - 72[0m
+Mongoose: users.ensureIndex() @5/28/2018, 1:06:50 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:06:50 PM
+[0mGET /posts [33m404 [0m12.095 ms - 72[0m
+[0mGET /posts [33m404 [0m51.251 ms - 72[0m
+Mongoose: users.ensureIndex() @5/28/2018, 1:09:33 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:09:34 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:12:32 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:12:32 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:13:12 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:13:13 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:13:33 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:13:33 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:13:47 PM
+Mongoose: users.ensureIndex() @5/28/2018, 1:13:47 PM

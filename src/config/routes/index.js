@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const path = require('path');
 
 const router = require('express').Router();
 const Promise = require('bluebird');
@@ -18,14 +19,23 @@ router.route('/')
 
 router.route('/logs')
 .get((req, res, next) => {
-	const file = fs.createReadStream('../../utils/webapp.log');
+	const file = fs.createReadStream(path.join(__dirname, '../../utils/webapp.log'));
 	file.pipe(res);
 })
 .post((req, res, next) => {
-	const file = fs.createWriteStream('../../utils/webapp.log');
+	const fileWriteStream = fs.createWriteStream(path.join(__dirname, '../../utils/webapp.log'));
+	const content = fs.readFile(path.join(__dirname, '../../utils/webapp.log'));
+	req.body.log.forEach(msg => {
+		if(content.indexOf(msg) !== (-1)) fileWriteStream.write(msg);
+	});
+})
+.put((req, res, next) => {
+	const file = fs.createWriteStream(path.join(__dirname, '../../utils/webapp.log'));
 	file.write(req.body.log);
 })
-.delete((req, res, next) => {})
+.delete((req, res, next) => {
+	fs.truncate('../../utils/webapp.log', 0, () => console.log('Log cleared.'));
+})
 
 router.route('/login')
 .post((req, res, next) => {

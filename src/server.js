@@ -18,8 +18,10 @@ const accessLogStream = fs.createWriteStream(
 )
 
 app.use(logger('dev', {stream: accessLogStream}));
+app.use(logger('common'));
 mongoose.set('debug', (collectionName, methodName) => {
 	accessLogStream.write(`Mongoose: ${collectionName}.${methodName}() @${new Date().toLocaleString()}\n`);
+	console.log(`Mongoose: ${collectionName}.${methodName}() @ ${(new Date()).toLocaleString()}`);
 });
 
 app.use('/', require('./config/express'));
