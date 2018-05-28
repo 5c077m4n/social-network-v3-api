@@ -6,6 +6,7 @@ const bcrypt = Promise.promisifyAll(require('bcrypt'));
 const resErr = require('../utils/respond-error');
 const secret = require('../utils/secret').generateSecret;
 
+
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
