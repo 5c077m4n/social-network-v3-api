@@ -1,7 +1,7 @@
 'use strict';
 const mongoose = require('mongoose');
 const Promise = require('bluebird');
-const bcrypt = Promise.promisifyAll(require('bcrypt'));
+const bcrypt = Promise.promisifyAll(require('bcrypt'), {suffix: 'Promise'});
 
 const resErr = require('../utils/respond-error');
 const secret = require('../utils/secret').generateSecret;
@@ -47,16 +47,16 @@ UserSchema.statics.authenticate = function(res, username, password) {
 		.select('+secret')
 		.exec()
 		.then(user => {
-			if(!user) return resErr(res, 401, 'Incorrect username/password inserted.');
-			return bcrypt.compare(password, user.password)
+			if(!user) throw {res, status: 401, message: 'Incorrect username/password inserted.'};
+			else return bcrypt.comparePromise(password, user.password)
 				.then(same => {
-					if(!same) return resErr(res, 401, 'Incorrect username/password inserted.');
+					if(!same) throw {res, status: 401, message: 'Incorrect username/password inserted.'};
 					user.password = undefined;
 					return user;
 				})
 				.catch(Promise.reject);
 		})
-		.catch(Promise.reject)
+		.catch(Promise.reject);
 };
 
 module.exports = mongoose.model('User', UserSchema);

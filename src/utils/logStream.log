@@ -600,3 +600,127 @@ Mongoose: users.ensureIndex() @5/28/2018, 11:31:00 PM
 Mongoose: users.ensureIndex() @5/28/2018, 11:31:00 PM
 Mongoose: users.ensureIndex() @5/28/2018, 11:45:37 PM
 Mongoose: users.ensureIndex() @5/28/2018, 11:45:37 PM
+Mongoose: users.findOne() @5/29/2018, 11:03:09 AM
+[0mPOST /login [33m401 [0m183.966 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:04:10 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:04:10 AM
+Mongoose: users.findOne() @5/29/2018, 11:04:42 AM
+[0mPOST /login [33m401 [0m162.227 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:08:24 AM
+[0mPOST /login [33m401 [0m104.565 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:08:44 AM
+[0mPOST /login [32m200 [0m1588.790 ms - 369[0m
+Mongoose: users.findOne() @5/29/2018, 11:09:02 AM
+[0mPOST /login [32m200 [0m1874.392 ms - 369[0m
+Mongoose: users.findOne() @5/29/2018, 11:12:12 AM
+[0mPOST /login [33m401 [0m104.918 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:13:16 AM
+[0mPOST /login [33m401 [0m105.327 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:15:23 AM
+[0mPOST /login [33m401 [0m103.491 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:20:24 AM
+[0mPOST /login [33m401 [0m179.640 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:22:57 AM
+[0mPOST /login [33m401 [0m105.162 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:23:00 AM
+[0mPOST /login [33m401 [0m102.800 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:23:03 AM
+[0mPOST /login [33m401 [0m98.836 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:23:06 AM
+[0mPOST /login [33m401 [0m103.380 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:23:11 AM
+[0mPOST /login [33m401 [0m2104.882 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:23:27 AM
+[0mPOST /login [33m401 [0m4099.419 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 11:23:55 AM
+[0mPOST /login [33m401 [0m6103.612 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:40:42 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:40:42 AM
+Mongoose: users.findOne() @5/29/2018, 11:40:46 AM
+[0mPOST /login [33m401 [0m193.371 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:42:30 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:42:30 AM
+Mongoose: users.findOne() @5/29/2018, 11:42:36 AM
+[0mPOST /login [33m401 [0m271.704 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:43:53 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:43:53 AM
+Mongoose: users.findOne() @5/29/2018, 11:44:10 AM
+[0mPOST /login [33m401 [0m202.904 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:45:18 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:45:18 AM
+Mongoose: users.findOne() @5/29/2018, 11:45:36 AM
+[0mPOST /login [33m401 [0m236.880 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:46:48 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:46:49 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:48:03 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:48:03 AM
+Mongoose: users.findOne() @5/29/2018, 11:48:05 AM
+[0mPOST /login [33m401 [0m250.689 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:48:18 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:48:18 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:49:34 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:49:34 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:49:41 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:49:41 AM
+Mongoose: users.findOne() @5/29/2018, 11:49:47 AM
+[0mPOST /login [33m401 [0m170.152 ms - 49[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:50:06 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:50:06 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:51:16 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:51:16 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:53:27 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:53:27 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:53:53 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:53:54 AM
+Mongoose: users.findOne() @5/29/2018, 11:54:27 AM
+[0mPOST /login [33m401 [0m186.847 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:57:48 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:57:49 AM
+Mongoose: users.findOne() @5/29/2018, 11:57:52 AM
+[0mPOST /login [31m500 [0m187.762 ms - 57[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:58:34 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:58:35 AM
+Mongoose: users.findOne() @5/29/2018, 11:58:51 AM
+[0mPOST /login [31m500 [0m204.580 ms - 57[0m
+Mongoose: users.ensureIndex() @5/29/2018, 11:59:23 AM
+Mongoose: users.ensureIndex() @5/29/2018, 11:59:23 AM
+Mongoose: users.findOne() @5/29/2018, 11:59:27 AM
+[0mPOST /login [33m401 [0m259.216 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 12:00:24 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:00:24 PM
+Mongoose: users.findOne() @5/29/2018, 12:00:40 PM
+[0mPOST /login [33m401 [0m199.517 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 12:01:56 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:01:56 PM
+Mongoose: users.findOne() @5/29/2018, 12:01:57 PM
+[0mPOST /login [31m500 [0m197.580 ms - 51[0m
+Mongoose: users.ensureIndex() @5/29/2018, 12:02:25 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:02:25 PM
+Mongoose: users.findOne() @5/29/2018, 12:02:29 PM
+[0mPOST /login [33m401 [0m183.469 ms - 68[0m
+Mongoose: users.ensureIndex() @5/29/2018, 12:02:54 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:02:54 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:03:31 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:03:31 PM
+Mongoose: users.findOne() @5/29/2018, 12:03:34 PM
+[0mPOST /login [33m401 [0m210.123 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:03:49 PM
+[0mPOST /login [31m500 [0m140.814 ms - 53[0m
+Mongoose: users.ensureIndex() @5/29/2018, 12:04:28 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:04:28 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:04:32 PM
+Mongoose: users.ensureIndex() @5/29/2018, 12:04:32 PM
+Mongoose: users.findOne() @5/29/2018, 12:04:35 PM
+[0mPOST /login [33m401 [0m1951.866 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:05:43 PM
+[0mPOST /login [33m401 [0m105.208 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:07:08 PM
+[0mPOST /login [33m401 [0m94.938 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:08:58 PM
+[0mPOST /login [33m401 [0m95.866 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:09:33 PM
+[0mPOST /login [33m401 [0m101.143 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:13:05 PM
+[0mPOST /login [33m401 [0m95.523 ms - 68[0m
+Mongoose: users.findOne() @5/29/2018, 12:15:33 PM
+[0mPOST /login [33m401 [0m95.918 ms - 68[0m

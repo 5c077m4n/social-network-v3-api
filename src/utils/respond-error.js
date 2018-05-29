@@ -1,5 +1,5 @@
 module.exports = (res, statusCode, message) => {
-	if(!message)
+	if(!message) {
 		switch(statusCode) {
 			case 400:
 				message = '400 Bad Request.';
@@ -19,8 +19,9 @@ module.exports = (res, statusCode, message) => {
 			default:
 				message = 'Unknown Error.';
 		}
-		return res.status((statusCode >= 100 && statusCode < 600)? statusCode : 500).json({
-			statusCode,
-			message
-		});
+	}
+	return res.status((statusCode >= 100 && statusCode < 600)? statusCode : 500).json({
+		statusCode,
+		message
+	});
 };
